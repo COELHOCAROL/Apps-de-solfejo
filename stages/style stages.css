@@ -1,0 +1,42 @@
+/*Muda o plano de fundo*/
+body {
+  font-size: 100%;
+  background-color:#ffffce;
+}
+/*Muda o texto*/
+figcaption,p{
+  font: 0.8em Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-indent: 20px;
+  color: #2f2c24;
+}
+h2,h3,h4,h5{
+  font-family: omic-sans, Brush Script MT, cursive;
+  text-align: center;
+  text-indent: 20px;
+  color:#4f3b09;
+}
+a{
+  color: #a57400;
+}
+a:hover{
+  color:#f4d676;
+}
+
+/*Caixa de citação*/
+blockquote{
+  margin:1%;
+  padding:1%;
+  background-color:#fff9be;
+  border: solid #f4d676;
+  font-style:italic;
+  color: #2f2c24;
+}
+
+
+/*Imagens*/
+img{
+    margin-left: 40vw;
+    margin-bottom:2vw;
+    margin-top: 2vw;
+}
