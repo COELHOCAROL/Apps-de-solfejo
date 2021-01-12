@@ -1,9 +1,9 @@
-/*Muda o plano de fundo*/
+  /*Muda o plano de fundo*/
 body {
   font-size: 100%;
   background-color:#ffffce;
 }
-/*Muda o texto*/
+  /*Muda o texto*/
 h1, p, blockquote, header, a{
   font: 0.8em Arial, Helvetica, sans-serif;
   text-align: center;
@@ -26,29 +26,44 @@ blockquote{
   color: #2f2c24;
 }
 
-/*Botões do header*/
-header a{
-  text-decoration: none;
-  color:black;
+  /*Botões do header*/
+ul{
+  list-style-type:none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+    /*Botões do header não ativados*/
+li{
+  display: inline-block;
   border:solid #ce9f0f;
   background-color:#f4d676;
   padding: 2px;
-  font-size: 1em;
+  margin-bottom:1%;
+  }
+a{
+  text-decoration: none;
+  font-size: 0.8em;
   font-weight: bold;
   color: #4f3b09;
+  padding: 2px;
 }
-header a:hover {
-  text-decoration: none;
-  color:black;
+    /*Botões do header ativados*/
+li:hover{
   border:solid #c98503;
   background-color:#fbd743;
   padding: 2px;
-  font-size: 1em;
+  margin-bottom:1%;
+
+}
+ a:hover {
+  text-decoration: none;
+  font-size: 0.8em;
   font-weight: bold;
   color:#2f2c24;
+  padding: 2px;
 }
-/*Etapas*/
+  /*Etapas*/
 iframe{
-  margin-top: 1%;
   border: solid 10px #f4d676;
 }
